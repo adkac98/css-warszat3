@@ -1,0 +1,36 @@
+div {
+    margin: auto;
+    margin-bottom: 20px;
+    height: 150px;
+    width: 150px;
+}
+
+.red   {
+    background-color:red ;
+}
+
+
+.blue   {
+    background-color: blue;
+}
+
+.green  {
+    background-color: green;
+}
+
+.red:hover    {
+    transition-duration: 2s;
+    width: 300px;
+}
+
+.blue:hover {
+    transition-duration: 2s;
+    height: 300px;
+}
+
+.green:hover    {
+    transition-duration: 2s;
+    height: 300px;
+    width: 300px;
+}
+
